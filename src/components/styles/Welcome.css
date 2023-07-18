@@ -1,0 +1,105 @@
+.homeVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: none;
+  z-index: -1;
+  transition: 2s ease-in-out;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.home {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  position: relative;
+  z-index: 0;
+}
+
+.home .content {
+  text-align: center;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  position: relative;
+  margin: 20px;
+  background-color: white;
+  border-radius: 10px;
+  z-index: 0;
+  transition: 0.5s;
+  border: 1px solid black;
+}
+
+.about:hover {
+  background-color: #f5f5f5;
+  box-shadow: 0 0 20px #ccc;
+  cursor: default;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-flow: column;
+  position: relative;
+  z-index: 0;
+  padding: 20px;
+  margin: 20px;
+  font-size: 24px;
+}
+
+.home .content h3 {
+  font-size: 4.5rem;
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+.home .content p {
+  font-size: 2.5rem;
+  color: #fff;
+  padding: 0.5rem 0;
+}
+
+.contact {
+  margin: 50px;
+  width: 1000px;
+  font-weight: 800;
+}
+
+.textFields {
+  display: flex;
+  flex-direction: column;
+}
+
+.names {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.fname {
+  margin-right: 60px;
+  width: 500px;
+}
+
+.lname {
+  width: 500px;
+}
+.contactWrapper{
+   display:flex;
+  flex-direction:row;
+}
+.contactImg{
+  flex: 1;
+}

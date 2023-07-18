@@ -1,0 +1,84 @@
+.savedPlaces {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.savedPlacesLeft {
+    flex: 1.75;
+}
+
+.savedPlacesRight {
+    flex: 1;
+}
+.savedPlaces__header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: black;
+}
+
+.savedPlacesContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #fafafa;
+    padding: 10px;
+    margin: 30px;
+    box-shadow: 0px 0px 5px lightgray;
+    height: 200px;
+    border-radius: 20px;
+    transition: 0.2s ease-out;
+}
+
+.savedPlacesContainer:hover {
+    box-shadow: 0px 0px 10px lightgray;
+}
+
+.image {
+    width: 200px;
+    margin-right: 10px;
+}
+
+.savedPlaceImage {
+    width: 200px;
+    border-radius: 20px;
+}
+
+.wrap2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.savedPlaceHeading {
+    color: #10a0c5;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.savedPlaceHeading:hover {
+    color: #10a0c5;
+    cursor: pointer;
+    
+    text-decoration: underline;
+}
+
+.remove {
+    margin-top: 10px;
+    height: fit-content;
+    align-self: flex-end;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.leftright{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
